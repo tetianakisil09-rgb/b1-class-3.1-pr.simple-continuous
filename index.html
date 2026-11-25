@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>B1 English Lesson: Present Simple, Present Continuous & At the Bistro</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            sage: {
+              50: '#F4F8F5',
+              100: '#E8F0EB',
+              200: '#CFE0D5',
+              300: '#A9C7B5',
+              500: '#5C8F6D',
+              600: '#4A7C59',
+              700: '#3B6347',
+              800: '#2E4E38',
+            },
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background-color: #F9FAFB;
+      color: #1E293B;
+    }
+    /* Custom inline dialogue blank button */
+    .dialogue-blank {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0.125rem 0.625rem;
+      margin: 0.125rem 0.15rem;
+      border-radius: 0.5rem;
+      border: 1.5px dashed #4A7C59;
+      background-color: #F4F8F5;
+      color: #2E4E38;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background-color 0.15s ease, border-color 0.15s ease;
+    }
+    .dialogue-blank:hover {
+      background-color: #E8F0EB;
+      border-style: solid;
+    }
+    .dialogue-blank.correct {
+      border-style: solid;
+      border-color: #16A34A;
+      background-color: #DCFCE7;
+      color: #14532D;
+    }
+    .dialogue-blank.incorrect {
+      border-style: solid;
+      border-color: #DC2626;
+      background-color: #FEE2E2;
+      color: #7F1D1D;
+    }
+  </style>
+</head>
+<body class="font-sans antialiased text-slate-800 bg-[#F9FAFB] selection:bg-sage-100 selection:text-sage-800">
+
+  <!-- Sticky Top Navigation Bar -->
+  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-3 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center gap-2.5">
+        <span class="inline-flex items-center justify-center px-2.5 py-1 rounded-lg bg-sage-600 text-white text-xs font-bold tracking-wide">
+          B1 LEVEL
+        </span>
+        <h1 class="text-base sm:text-lg font-bold text-slate-800 tracking-tight">
+          Present Simple &amp; Continuous
+        </h1>
+      </div>
+
+      <nav aria-label="Lesson Sections" class="flex flex-wrap items-center gap-1.5 sm:gap-2">
+        <a href="#part-1" class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-sage-700 hover:bg-sage-50 transition">
+          1. Grammar &amp; Tests
+        </a>
+        <a href="#part-2" class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-sage-700 hover:bg-sage-50 transition">
+          2. Active &amp; Stative Verbs
+        </a>
+        <a href="#part-3" class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-sage-700 hover:bg-sage-50 transition">
+          3. At the Bistro Dialogue
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Worksheet Container -->
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-8 space-y-12">
+
+    <!-- =========================================================
+         PART 1: PRESENT SIMPLE VS. PRESENT CONTINUOUS
+    ========================================================== -->
+    <section id="part-1" class="scroll-mt-20 space-y-8">
+      <div class="border-b border-slate-200 pb-4">
+        <p class="text-xs font-semibold uppercase tracking-wider text-sage-600">Part 1 • Core Grammar</p>
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">
+          Present Simple vs. Present Continuous
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm sm:text-base max-w-3xl">
+          Compare how we form and use both present tenses to talk about routines, general facts, current actions, and temporary situations.
+        </p>
+      </div>
+
+      <!-- Comparison Cards: Form & Usage -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <!-- Present Simple Card -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-5">
+          <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+            <h3 class="text-xl font-bold text-sage-700">Present Simple</h3>
+            <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-sage-50 text-sage-700 border border-sage-200">
+              Permanent &amp; Repeated
+            </span>
+          </div>
+
+          <!-- Form -->
+          <div class="space-y-2">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">Form</h4>
+            <ul class="space-y-1.5 text-sm text-slate-700">
+              <li class="flex items-start gap-2">
+                <span class="font-bold text-sage-600 w-5">+</span>
+                <span>I / You / We / They <strong>work</strong>. &nbsp;|&nbsp; He / She / It <strong>works</strong>.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="font-bold text-slate-500 w-5">−</span>
+                <span>I <strong>don’t work</strong>. &nbsp;|&nbsp; She <strong>doesn’t work</strong>.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="font-bold text-sage-600 w-5">?</span>
+                <span><strong>Do</strong> you <strong>work</strong>? &nbsp;|&nbsp; <strong>Does</strong> he <strong>work</strong>?</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Usage -->
+          <div class="space-y-2.5">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">When to Use</h4>
+            <div class="space-y-2 text-sm">
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-100">
+                <p class="font-semibold text-slate-800">1. Habits, routines &amp; repeated actions</p>
+                <p class="text-slate-600 italic mt-0.5">“I usually <strong>drink</strong> black coffee before work.”</p>
+              </div>
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-100">
+                <p class="font-semibold text-slate-800">2. Permanent situations &amp; general facts</p>
+                <p class="text-slate-600 italic mt-0.5">“My sister <strong>lives</strong> in Lviv and <strong>teaches</strong> biology.”</p>
+              </div>
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-100">
+                <p class="font-semibold text-slate-800">3. Timetables &amp; fixed schedules</p>
+                <p class="text-slate-600 italic mt-0.5">“The last train <strong>leaves</strong> at 11:15 PM.”</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Signal Words -->
+          <div class="pt-1">
+            <p class="text-xs text-slate-500">
+              <strong class="text-slate-700">Signal words:</strong> always, usually, often, sometimes, rarely, never, every day, on Mondays, twice a week.
+            </p>
+          </div>
+        </div>
+
+        <!-- Present Continuous Card -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-5">
+          <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+            <h3 class="text-xl font-bold text-slate-800">Present Continuous</h3>
+            <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-100 text-slate-700 border border-slate-200">
+              In Progress &amp; Temporary
+            </span>
+          </div>
+
+          <!-- Form -->
+          <div class="space-y-2">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">Form (am / is / are + verb-ing)</h4>
+            <ul class="space-y-1.5 text-sm text-slate-700">
+              <li class="flex items-start gap-2">
+                <span class="font-bold text-sage-600 w-5">+</span>
+                <span>I <strong>am working</strong>. &nbsp;|&nbsp; He <strong>is working</strong>. &nbsp;|&nbsp; They <strong>are working</strong>.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="font-bold text-slate-500 w-5">−</span>
+                <span>I<strong>’m not working</strong>. &nbsp;|&nbsp; She <strong>isn’t working</strong>.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="font-bold text-sage-600 w-5">?</span>
+                <span><strong>Are</strong> you <strong>working</strong>? &nbsp;|&nbsp; <strong>Is</strong> he <strong>working</strong>?</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Usage -->
+          <div class="space-y-2.5">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">When to Use</h4>
+            <div class="space-y-2 text-sm">
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-100">
+                <p class="font-semibold text-slate-800">1. Actions happening right now</p>
+                <p class="text-slate-600 italic mt-0.5">“Please be quiet — the baby <strong>is sleeping</strong>.”</p>
+              </div>
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-100">
+                <p class="font-semibold text-slate-800">2. Temporary situations around now</p>
+                <p class="text-slate-600 italic mt-0.5">“I<strong>’m staying</strong> with my cousin while my flat is painted.”</p>
+              </div>
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-100">
+                <p class="font-semibold text-slate-800">3. Changing trends &amp; future arrangements</p>
+                <p class="text-slate-600 italic mt-0.5">“More people <strong>are working</strong> remotely these days.”</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Signal Words -->
+          <div class="pt-1">
+            <p class="text-xs text-slate-500">
+              <strong class="text-slate-700">Signal words:</strong> now, right now, at the moment, currently, today, this week, these days, Look! Listen!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Practice 1A & 1B Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <!-- Practice 1A: Present Simple -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-4">
+          <div class="flex items-center justify-between gap-2 border-b border-slate-100 pb-3">
+            <div>
+              <span class="text-xs font-semibold text-sage-600 uppercase tracking-wide">Practice 1A</span>
+              <h3 class="text-lg font-bold text-slate-900">Present Simple (10 Items)</h3>
+            </div>
+            <button type="button" onclick="resetQuiz('quiz-ps')" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-600 bg-slate-100 hover:bg-slate-200 transition">
+              Reset
+            </button>
+          </div>
+          <p class="text-xs text-slate-500">Choose the correct Present Simple form for each sentence.</p>
+          <div id="quiz-ps" class="space-y-3"></div>
+        </div>
+
+        <!-- Practice 1B: Present Continuous -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-4">
+          <div class="flex items-center justify-between gap-2 border-b border-slate-100 pb-3">
+            <div>
+              <span class="text-xs font-semibold text-sage-600 uppercase tracking-wide">Practice 1B</span>
+              <h3 class="text-lg font-bold text-slate-900">Present Continuous (10 Items)</h3>
+            </div>
+            <button type="button" onclick="resetQuiz('quiz-pc')" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-600 bg-slate-100 hover:bg-slate-200 transition">
+              Reset
+            </button>
+          </div>
+          <p class="text-xs text-slate-500">Choose the correct Present Continuous form for each sentence.</p>
+          <div id="quiz-pc" class="space-y-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         PART 2: SPECIAL CALLOUT — ACTIVE VS. STATIVE VERBS
+    ========================================================== -->
+    <section id="part-2" class="scroll-mt-20 space-y-6">
+      <div class="border-b border-slate-200 pb-4">
+        <p class="text-xs font-semibold uppercase tracking-wider text-sage-600">Part 2 • Crucial Rule</p>
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">
+          Active vs. Stative Verbs
+        </h2>
+      </div>
+
+      <!-- Highlighted Callout Box -->
+      <div class="rounded-2xl bg-sage-50 border-2 border-sage-300 p-6 sm:p-8 shadow-sm space-y-6">
+        <div class="flex flex-col md:flex-row md:items-start gap-4">
+          <div class="w-11 h-11 rounded-xl bg-sage-600 text-white flex items-center justify-center shrink-0 font-bold text-lg">
+            !
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-xl font-bold text-sage-800">
+              Important Rule: Stative Verbs Are NOT Used in Continuous Tenses
+            </h3>
+            <p class="text-slate-700 text-sm sm:text-base leading-relaxed">
+              <strong>Active (dynamic) verbs</strong> describe physical actions that we can start and stop (e.g., <em>eat, run, cook, talk</em>). They can be used in both Simple and Continuous tenses.
+              <br class="hidden sm:inline" />
+              <strong>Stative verbs</strong> describe states, feelings, thoughts, senses, or possession rather than actions. Even when they are true <em>right now</em>, we use the <strong>Present Simple</strong> — never <em>-ing</em>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Correct vs Incorrect Quick Comparison -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="bg-white rounded-xl p-4 border border-sage-200">
+            <span class="inline-block text-xs font-bold uppercase tracking-wider text-green-700 bg-green-100 px-2 py-0.5 rounded mb-2">
+              Correct (Active &amp; Stative)
+            </span>
+            <ul class="space-y-1.5 text-sm text-slate-800">
+              <li>✓ “I <strong>am eating</strong> lunch right now.” <em>(action)</em></li>
+              <li>✓ “I <strong>know</strong> the answer to your question.” <em>(state)</em></li>
+              <li>✓ “She <strong>wants</strong> a glass of sparkling water.” <em>(state)</em></li>
+              <li>✓ “This soup <strong>smells</strong> delicious!” <em>(state)</em></li>
+            </ul>
+          </div>
+          <div class="bg-white rounded-xl p-4 border border-red-200">
+            <span class="inline-block text-xs font-bold uppercase tracking-wider text-red-700 bg-red-100 px-2 py-0.5 rounded mb-2">
+              Incorrect (Avoid -ing)
+            </span>
+            <ul class="space-y-1.5 text-sm text-slate-600">
+              <li>✗ <del>“I am knowing the answer to your question.”</del></li>
+              <li>✗ <del>“She is wanting a glass of sparkling water.”</del></li>
+              <li>✗ <del>“This soup is smelling delicious!”</del></li>
+              <li>✗ <del>“Are you understanding what I mean?”</del></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Categorized Stative Verb Reference List -->
+        <div class="space-y-3">
+          <h4 class="text-sm font-bold uppercase tracking-wider text-sage-800">
+            Common Stative Verbs by Category
+          </h4>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+            <div class="bg-white rounded-xl p-4 border border-sage-200/80">
+              <h5 class="font-bold text-sm text-sage-700 mb-1.5">Thoughts &amp; Opinions</h5>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                know, understand, believe, remember, forget, mean, agree, disagree, suppose, recognize, realize
+              </p>
+            </div>
+            <div class="bg-white rounded-xl p-4 border border-sage-200/80">
+              <h5 class="font-bold text-sm text-sage-700 mb-1.5">Feelings &amp; Desires</h5>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                like, love, hate, prefer, want, need, wish, care, appreciate, mind
+              </p>
+            </div>
+            <div class="bg-white rounded-xl p-4 border border-sage-200/80">
+              <h5 class="font-bold text-sm text-sage-700 mb-1.5">Senses &amp; Perception</h5>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                see, hear, smell, taste, sound, seem, appear, look (= seem)
+              </p>
+            </div>
+            <div class="bg-white rounded-xl p-4 border border-sage-200/80">
+              <h5 class="font-bold text-sm text-sage-700 mb-1.5">Possession &amp; Being</h5>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                have (= own), own, belong, contain, include, consist of, cost, weigh, depend on, matter
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- B1 Dual-Meaning Tip -->
+        <div class="bg-white/90 rounded-xl p-4 border border-sage-200 text-xs sm:text-sm text-slate-700">
+          <p class="font-bold text-sage-800 mb-1">B1 Dual-Meaning Tip (State vs. Action):</p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1">
+            <p>• <strong>think:</strong> “I <em>think</em> it’s great.” (opinion) vs. “I<em>’m thinking</em> about dessert.” (considering)</p>
+            <p>• <strong>have:</strong> “We <em>have</em> a reservation.” (possession) vs. “We<em>’re having</em> dinner.” (eating)</p>
+            <p>• <strong>taste:</strong> “The pasta <em>tastes</em> rich.” (quality) vs. “The chef <em>is tasting</em> the sauce.” (action)</p>
+            <p>• <strong>see:</strong> “I <em>see</em> what you mean.” (understand) vs. “I<em>’m seeing</em> the doctor today.” (meeting)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Practice 2: Active vs. Stative Verbs Exercise -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-4">
+        <div class="flex items-center justify-between gap-2 border-b border-slate-100 pb-3">
+          <div>
+            <span class="text-xs font-semibold text-sage-600 uppercase tracking-wide">Practice 2</span>
+            <h3 class="text-lg font-bold text-slate-900">Active vs. Stative Verbs (12 Items)</h3>
+          </div>
+          <button type="button" onclick="resetQuiz('quiz-stative')" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-600 bg-slate-100 hover:bg-slate-200 transition">
+            Reset
+          </button>
+        </div>
+        <p class="text-xs sm:text-sm text-slate-600">
+          Decide whether each sentence needs the <strong>Present Simple</strong> (stative meaning) or <strong>Present Continuous</strong> (active meaning happening now).
+        </p>
+        <div id="quiz-stative" class="grid grid-cols-1 md:grid-cols-2 gap-3.5"></div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         PART 3: EXTENDED RESTAURANT ROLE-PLAY DIALOGUE
+    ========================================================== -->
+    <section id="part-3" class="scroll-mt-20 space-y-6">
+      <div class="border-b border-slate-200 pb-4 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-wider text-sage-600">Part 3 • Interactive Role-Play</p>
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">
+            At the Bistro: Waiter &amp; Customer Dialogue
+          </h2>
+          <p class="text-slate-600 mt-1.5 text-sm sm:text-base max-w-2xl">
+            Click each highlighted blank in the conversation to choose the natural tense (Present Simple or Present Continuous). Pay special attention to stative verbs!
+          </p>
+        </div>
+
+        <div class="flex items-center gap-2 shrink-0">
+          <span id="dialogue-score-badge" class="px-3 py-1.5 rounded-lg bg-sage-50 border border-sage-200 text-sage-800 text-xs sm:text-sm font-semibold">
+            0 / 18 completed
+          </span>
+          <button type="button" onclick="resetDialogue()" class="px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-700 bg-white border border-slate-300 hover:bg-slate-50 transition">
+            Reset Dialogue
+          </button>
+        </div>
+      </div>
+
+      <!-- Dialogue Card -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-5 sm:p-8 shadow-sm space-y-6">
+        <!-- Setting Banner -->
+        <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200/80 text-xs sm:text-sm text-slate-600">
+          <span><strong>Setting:</strong> <em>The Olive Garden Bistro</em> — Friday evening, 7:30 PM</span>
+          <span><strong>Roles:</strong> <span class="text-sage-700 font-semibold">Waiter</span> &amp; <span class="text-slate-800 font-semibold">Customer (Alex)</span></span>
+        </div>
+
+        <!-- Dialogue Lines Container -->
+        <div id="dialogue-container" class="space-y-4 text-sm sm:text-base leading-relaxed"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Floating Choice Popover for Dialogue Blanks -->
+  <div id="blank-popover" class="hidden fixed z-50 w-72 sm:w-80 bg-white rounded-xl shadow-xl border border-slate-200 p-3 space-y-2">
+    <div class="flex items-center justify-between border-b border-slate-100 pb-1.5">
+      <span class="text-xs font-bold uppercase tracking-wider text-sage-700">Select the correct form</span>
+      <button type="button" onclick="closePopover()" class="text-slate-400 hover:text-slate-700 text-sm font-bold px-1.5">✕</button>
+    </div>
+    <div id="popover-options" class="space-y-1.5"></div>
+    <p id="popover-hint" class="hidden text-xs p-2 rounded-lg"></p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="max-w-5xl mx-auto px-4 sm:px-6 py-8 text-center text-xs text-slate-400 border-t border-slate-200/70 mt-10">
+    B1 Interactive Grammar &amp; Speaking Worksheet • Present Simple, Present Continuous &amp; Stative Verbs
+  </footer>
+
+  <!-- Lightweight Vanilla JS -->
+  <script>
+    // =========================================================================
+    // DATA: PRACTICE 1A (PRESENT SIMPLE - 10 ITEMS)
+    // =========================================================================
+    const presentSimpleItems = [
+      {
+        sentence: "Our local bakery ______ fresh sourdough bread at 6:00 AM every morning.",
+        options: ["bakes", "bake", "is baking"],
+        answer: "bakes",
+        explanation: "Daily routine/schedule with third-person singular ('Our local bakery' = it) → bakes."
+      },
+      {
+        sentence: "How often ______ your colleagues ______ lunch together?",
+        options: ["do / have", "does / have", "are / having"],
+        answer: "do / have",
+        explanation: "'How often' asks about a habit; 'your colleagues' is plural → do + base verb."
+      },
+      {
+        sentence: "Water ______ at 100 degrees Celsius at sea level.",
+        options: ["boils", "boil", "is boiling"],
+        answer: "boils",
+        explanation: "Scientific facts and general truths always take the Present Simple."
+      },
+      {
+        sentence: "My brother ______ spicy food, so he always orders mild dishes.",
+        options: ["doesn't like", "don't like", "isn't liking"],
+        answer: "doesn't like",
+        explanation: "Negative Present Simple for he/she/it uses 'doesn't' + base verb ('like')."
+      },
+      {
+        sentence: "What time ______ the museum ______ on Sundays?",
+        options: ["does / close", "do / closes", "is / closing"],
+        answer: "does / close",
+        explanation: "Fixed public timetables and opening hours use the Present Simple."
+      },
+      {
+        sentence: "I rarely ______ sugar in my tea because I prefer the natural taste.",
+        options: ["put", "puts", "am putting"],
+        answer: "put",
+        explanation: "Frequency adverb 'rarely' signals a regular habit → Present Simple ('put')."
+      },
+      {
+        sentence: "Elena ______ three languages fluently: Ukrainian, English, and German.",
+        options: ["speaks", "speak", "is speaking"],
+        answer: "speaks",
+        explanation: "Permanent ability/fact about Elena → third-person singular 'speaks'."
+      },
+      {
+        sentence: "We ______ to the gym on Wednesdays because the studio is closed.",
+        options: ["don't go", "doesn't go", "aren't going"],
+        answer: "don't go",
+        explanation: "Repeated weekly routine with 'we' → 'don't go'."
+      },
+      {
+        sentence: "______ this bus ______ directly to the central train station?",
+        options: ["Does / go", "Do / go", "Does / goes"],
+        answer: "Does / go",
+        explanation: "Question with 'this bus' (it) → 'Does' + base verb 'go' (no -s on the main verb)."
+      },
+      {
+        sentence: "Good chefs always ______ their ingredients carefully before cooking.",
+        options: ["check", "checks", "are checking"],
+        answer: "check",
+        explanation: "'Good chefs' is plural, and 'always' indicates a regular professional habit."
+      }
+    ];
+
+    // =========================================================================
+    // DATA: PRACTICE 1B (PRESENT CONTINUOUS - 10 ITEMS)
+    // =========================================================================
+    const presentContinuousItems = [
+      {
+        sentence: "Look out the window! It ______ heavily, so take an umbrella.",
+        options: ["is snowing", "snows", "are snowing"],
+        answer: "is snowing",
+        explanation: "'Look out the window!' shows an action happening right at the moment of speaking."
+      },
+      {
+        sentence: "I ______ a really interesting novel about culinary history this week.",
+        options: ["am reading", "read", "is reading"],
+        answer: "am reading",
+        explanation: "'This week' signals a temporary action in progress around now."
+      },
+      {
+        sentence: "Why ______ you ______ your winter coat indoors? Is it cold in here?",
+        options: ["are / wearing", "do / wear", "is / wearing"],
+        answer: "are / wearing",
+        explanation: "Describes what the listener is wearing right now → 'are you wearing'."
+      },
+      {
+        sentence: "They ______ the main kitchen this month, so the restaurant is serving a smaller menu.",
+        options: ["are renovating", "renovate", "is renovating"],
+        answer: "are renovating",
+        explanation: "Temporary project happening 'this month' → 'are renovating'."
+      },
+      {
+        sentence: "Please don't turn off the TV — I ______ the end of this documentary.",
+        options: ["am watching", "watch", "watching"],
+        answer: "am watching",
+        explanation: "Action happening right at this moment → 'am watching'."
+      },
+      {
+        sentence: "Rent prices in the city centre ______ faster every year.",
+        options: ["are rising", "rise", "is rising"],
+        answer: "are rising",
+        explanation: "Changing or developing trends use the Present Continuous ('are rising')."
+      },
+      {
+        sentence: "Mark ______ today because he has a dental appointment.",
+        options: ["isn't working", "doesn't work", "aren't working"],
+        answer: "isn't working",
+        explanation: "Temporary exception today → negative Present Continuous ('isn't working')."
+      },
+      {
+        sentence: "Listen! Somebody ______ the piano upstairs.",
+        options: ["is playing", "plays", "are playing"],
+        answer: "is playing",
+        explanation: "'Listen!' draws attention to an action happening right now ('Somebody' = singular)."
+      },
+      {
+        sentence: "What ______ your sister ______ at university these days?",
+        options: ["is / studying", "does / study", "are / studying"],
+        answer: "is / studying",
+        explanation: "'These days' + singular subject ('your sister') → 'is ... studying'."
+      },
+      {
+        sentence: "We ______ dinner with my parents tonight at 7:00 PM — we already booked a table.",
+        options: ["are having", "have", "is having"],
+        answer: "are having",
+        explanation: "Fixed personal arrangement for tonight → Present Continuous ('are having')."
+      }
+    ];
+
+    // =========================================================================
+    // DATA: PRACTICE 2 (ACTIVE VS. STATIVE VERBS - 12 ITEMS)
+    // =========================================================================
+    const stativeExerciseItems = [
+      {
+        sentence: "Excuse me, ______ you ______ what the word 'garnish' means?",
+        options: ["do / know", "are / knowing"],
+        answer: "do / know",
+        explanation: "'Know' is a stative verb (thought/knowledge) — never used in Continuous."
+      },
+      {
+        sentence: "Be quiet for a second — I ______ to hear what the waiter is saying.",
+        options: ["am trying", "try"],
+        answer: "am trying",
+        explanation: "'Try' is an active verb describing an effort happening right now."
+      },
+      {
+        sentence: "This vegetarian lasagne ______ amazing! What herbs are in it?",
+        options: ["smells", "is smelling"],
+        answer: "smells",
+        explanation: "'Smell' describing the quality of food is a stative sense verb → Present Simple."
+      },
+      {
+        sentence: "I ______ about ordering the grilled salmon, or maybe the mushroom risotto.",
+        options: ["am thinking", "think"],
+        answer: "am thinking",
+        explanation: "Here 'think' means 'considering a decision right now' (active meaning)."
+      },
+      {
+        sentence: "That leather backpack ______ to my colleague, not to me.",
+        options: ["belongs", "is belonging"],
+        answer: "belongs",
+        explanation: "'Belong' expresses possession (stative) and never takes -ing."
+      },
+      {
+        sentence: "Why ______ the chef ______ the soup again? Is it too salty?",
+        options: ["is / tasting", "does / taste"],
+        answer: "is / tasting",
+        explanation: "The chef is performing the physical action of testing the food right now."
+      },
+      {
+        sentence: "We ______ a bigger table because two more friends are joining us.",
+        options: ["need", "are needing"],
+        answer: "need",
+        explanation: "'Need' is a stative verb expressing necessity → Present Simple."
+      },
+      {
+        sentence: "Sorry I can't talk right now — we ______ lunch in the garden.",
+        options: ["are having", "have"],
+        answer: "are having",
+        explanation: "'Have lunch' means 'eating lunch' (active), so Present Continuous is natural."
+      },
+      {
+        sentence: "Does this tomato sauce ______ any nuts or dairy products?",
+        options: ["contain", "containing"],
+        answer: "contain",
+        explanation: "'Contain' describes a permanent state/ingredient list (stative)."
+      },
+      {
+        sentence: "I ______ your point, but I still prefer dining at home on Fridays.",
+        options: ["see", "am seeing"],
+        answer: "see",
+        explanation: "Here 'see' means 'understand' (stative), not meeting someone."
+      },
+      {
+        sentence: "Look at Leo! He ______ his fresh espresso on the sunny terrace.",
+        options: ["is enjoying", "enjoys"],
+        answer: "is enjoying",
+        explanation: "'Enjoy' can be used in Continuous when describing an active experience right now."
+      },
+      {
+        sentence: "How much ______ a three-course meal at this bistro usually ______?",
+        options: ["does / cost", "is / costing"],
+        answer: "does / cost",
+        explanation: "'Cost' is a stative verb of measurement/value → Present Simple."
+      }
+    ];
+
+    // =========================================================================
+    // DATA: PART 3 EXTENDED RESTAURANT DIALOGUE (18 INTERACTIVE BLANKS)
+    // =========================================================================
+    const dialogueData = [
+      {
+        speaker: "Waiter",
+        segments: [
+          "Good evening and welcome to The Olive Garden Bistro! ",
+          {
+            id: 1,
+            options: ["Do you have", "Are you having", "Does you have"],
+            answer: "Do you have",
+            hint: "'Have a reservation' is possession (stative) → Present Simple: 'Do you have'."
+          },
+          " a reservation with us tonight?"
+        ]
+      },
+      {
+        speaker: "Customer",
+        segments: [
+          "Good evening! Yes, we booked a table for two under the name Alex. By the way, ",
+          {
+            id: 2,
+            options: ["I'm looking", "I look", "I looks"],
+            answer: "I'm looking",
+            hint: "Action happening right now while glancing around the room → 'I'm looking'."
+          },
+          " for a quiet corner away from the door, if possible."
+        ]
+      },
+      {
+        speaker: "Waiter",
+        segments: [
+          "Of course! Right this way — we have a lovely table by the window. Here are your menus. ",
+          {
+            id: 3,
+            options: ["Do you want", "Are you wanting", "Does you want"],
+            answer: "Do you want",
+            hint: "'Want' is a stative verb (desire) → never 'Are you wanting'."
+          },
+          " something to drink while you decide?"
+        ]
+      },
+      {
+        speaker: "Customer",
+        segments: [
+          "Yes, please. ",
+          {
+            id: 4,
+            options: ["I prefer", "I'm preferring", "I prefers"],
+            answer: "I prefer",
+            hint: "'Prefer' is a stative verb expressing a general preference → 'I prefer'."
+          },
+          " sparkling water with a slice of lemon. Actually, what is tonight's special? That dish at the next table ",
+          {
+            id: 5,
+            options: ["smells", "is smelling", "smell"],
+            answer: "smells",
+            hint: "'Smell' describing how food smells (sense state) → 'smells'."
+          },
+          " incredible!"
+        ]
+      },
+      {
+        speaker: "Waiter",
+        segments: [
+          "That is our grilled sea bass with roasted vegetables. Our chef ",
+          {
+            id: 6,
+            options: ["prepares", "is preparing", "prepare"],
+            answer: "prepares",
+            hint: "Regular practice/habit of the chef → Present Simple 'prepares'."
+          },
+          " it fresh every afternoon with local herbs. Today we ",
+          {
+            id: 7,
+            options: ["are also serving", "also serves", "is also serving"],
+            answer: "are also serving",
+            hint: "'Today' indicates a special temporary offer → 'are also serving'."
+          },
+          " a homemade wild mushroom soup."
+        ]
+      },
+      {
+        speaker: "Customer",
+        segments: [
+          "The mushroom soup ",
+          {
+            id: 8,
+            options: ["sounds", "is sounding", "sound"],
+            answer: "sounds",
+            hint: "'Sound' (= seem) is a stative sense verb → 'sounds'."
+          },
+          " delicious! Quick question before I order: ",
+          {
+            id: 9,
+            options: ["does the soup contain", "is the soup containing", "do the soup contain"],
+            answer: "does the soup contain",
+            hint: "'Contain' is a stative verb about ingredients → 'does the soup contain'."
+          },
+          " any cream? I'm avoiding dairy at the moment."
+        ]
+      },
+      {
+        speaker: "Waiter",
+        segments: [
+          "No, not at all — it is 100% dairy-free. ",
+          {
+            id: 10,
+            options: ["I understand", "I'm understanding", "I understands"],
+            answer: "I understand",
+            hint: "'Understand' is a stative verb (thought) → never 'I'm understanding'."
+          },
+          " how important allergies and dietary choices are, so I can also ask the kitchen to use olive oil instead of butter on your main course."
+        ]
+      },
+      {
+        speaker: "Customer",
+        segments: [
+          "Thank you so much, ",
+          {
+            id: 11,
+            options: ["I really appreciate", "I'm really appreciating", "I appreciates"],
+            answer: "I really appreciate",
+            hint: "'Appreciate' is a stative verb of feeling/gratitude → 'I really appreciate'."
+          },
+          " that! Okay, I'm ready to order. First, ",
+          {
+            id: 12,
+            options: ["I'm having", "I has", "I having"],
+            answer: "I'm having",
+            hint: "Ordering/choosing food right now → Present Continuous 'I'm having' (or 'I'll have')."
+          },
+          " the wild mushroom soup, and for my main course, the grilled sea bass."
+        ]
+      },
+      {
+        speaker: "Waiter",
+        segments: [
+          "Wonderful choices. ",
+          {
+            id: 13,
+            options: ["Do you need", "Are you needing", "Does you need"],
+            answer: "Do you need",
+            hint: "'Need' is a stative verb → 'Do you need'."
+          },
+          " any extra side dishes, like garlic potatoes or a green salad?"
+        ]
+      },
+      {
+        speaker: "Customer",
+        segments: [
+          "No, thank you — the roasted vegetables are plenty for me. ",
+          {
+            id: 14,
+            options: ["I'm trying", "I tries", "I try"],
+            answer: "I'm trying",
+            hint: "Temporary current goal/effort around now → 'I'm trying to eat lighter dinners'."
+          },
+          " to eat lighter dinners this month."
+        ]
+      },
+      {
+        speaker: "Waiter",
+        segments: [
+          "(20 minutes later) Here is your sea bass! How is everything so far? ",
+          {
+            id: 15,
+            options: ["Are you enjoying", "Do you enjoys", "Is you enjoying"],
+            answer: "Are you enjoying",
+            hint: "Asking about the customer's experience right now → 'Are you enjoying'."
+          },
+          " your meal?"
+        ]
+      },
+      {
+        speaker: "Customer",
+        segments: [
+          "Yes, it is fantastic! The fish ",
+          {
+            id: 16,
+            options: ["tastes", "is tasting", "taste"],
+            answer: "tastes",
+            hint: "'Taste' describing the flavour of the dish (stative) → 'tastes'."
+          },
+          " so fresh and tender. Actually, ",
+          {
+            id: 17,
+            options: ["I'm thinking", "I thinks", "I think"],
+            answer: "I'm thinking",
+            hint: "'Thinking about' = considering a plan right now (active meaning)."
+          },
+          " about bringing my whole team here for our office dinner next Friday!"
+        ]
+      },
+      {
+        speaker: "Waiter",
+        segments: [
+          "We would love to host your team! Just call us a couple of days ahead. Now, ",
+          {
+            id: 18,
+            options: ["do you want", "are you wanting", "does you want"],
+            answer: "do you want",
+            hint: "'Want' is a stative verb → always 'do you want', never 'are you wanting'."
+          },
+          " today's dessert menu, or would you like the bill?"
+        ]
+      },
+      {
+        speaker: "Customer",
+        segments: [
+          "I think I'm completely full, so just the bill, please. Thank you for the wonderful service!"
+        ]
+      }
+    ];
+
+    // =========================================================================
+    // RENDER MULTIPLE-CHOICE QUIZZES (1A, 1B, 2)
+    // =========================================================================
+    function renderQuiz(containerId, items) {
+      const container = document.getElementById(containerId);
+      container.innerHTML = "";
+
+      items.forEach((item, index) => {
+        const card = document.createElement("div");
+        card.className = "p-3.5 rounded-xl border border-slate-200/90 bg-slate-50/70 space-y-2.5 transition";
+        card.dataset.index = index;
+
+        const questionText = document.createElement("p");
+        questionText.className = "text-sm font-medium text-slate-800 leading-snug";
+        questionText.innerHTML = `<span class="font-bold text-sage-700 mr-1">${index + 1}.</span> ${item.sentence}`;
+
+        const btnRow = document.createElement("div");
+        btnRow.className = "flex flex-wrap gap-2";
+
+        const feedback = document.createElement("p");
+        feedback.className = "hidden text-xs rounded-lg px-2.5 py-1.5 leading-relaxed";
+
+        item.options.forEach((opt) => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.textContent = opt;
+          btn.className =
+            "px-3 py-1.5 rounded-lg text-xs font-medium bg-white border border-slate-300 text-slate-700 hover:border-sage-500 hover:bg-sage-50 transition";
+
+          btn.addEventListener("click", () => {
+            // Reset sibling button states
+            Array.from(btnRow.children).forEach((sibling) => {
+              sibling.className =
+                "px-3 py-1.5 rounded-lg text-xs font-medium bg-white border border-slate-300 text-slate-700 hover:border-sage-500 hover:bg-sage-50 transition";
+            });
+
+            const isCorrect = opt === item.answer;
+            if (isCorrect) {
+              btn.className =
+                "px-3 py-1.5 rounded-lg text-xs font-semibold bg-green-600 border border-green-600 text-white shadow-sm";
+              card.className = "p-3.5 rounded-xl border border-green-300 bg-green-50/40 space-y-2.5 transition";
+              feedback.className = "block text-xs rounded-lg px-2.5 py-1.5 bg-green-100/80 text-green-900";
+              feedback.innerHTML = `<strong>✓ Correct!</strong> ${item.explanation}`;
+            } else {
+              btn.className =
+                "px-3 py-1.5 rounded-lg text-xs font-semibold bg-red-600 border border-red-600 text-white shadow-sm";
+              card.className = "p-3.5 rounded-xl border border-red-200 bg-red-50/30 space-y-2.5 transition";
+              feedback.className = "block text-xs rounded-lg px-2.5 py-1.5 bg-red-100/80 text-red-900";
+              feedback.innerHTML = `<strong>✗ Not quite.</strong> ${item.explanation}`;
+            }
+          });
+
+          btnRow.appendChild(btn);
+        });
+
+        card.appendChild(questionText);
+        card.appendChild(btnRow);
+        card.appendChild(feedback);
+        container.appendChild(card);
+      });
+    }
+
+    function resetQuiz(containerId) {
+      if (containerId === "quiz-ps") renderQuiz("quiz-ps", presentSimpleItems);
+      if (containerId === "quiz-pc") renderQuiz("quiz-pc", presentContinuousItems);
+      if (containerId === "quiz-stative") renderQuiz("quiz-stative", stativeExerciseItems);
+    }
+
+    // =========================================================================
+    // RENDER & INTERACT WITH PART 3 DIALOGUE
+    // =========================================================================
+    const dialogueState = {}; // { blankId: { selected: string, isCorrect: boolean } }
+    let activeBlankId = null;
+
+    function renderDialogue() {
+      const container = document.getElementById("dialogue-container");
+      container.innerHTML = "";
+
+      dialogueData.forEach((turn) => {
+        const isWaiter = turn.speaker === "Waiter";
+        const row = document.createElement("div");
+        row.className = `flex flex-col sm:flex-row sm:items-start gap-2.5 sm:gap-4 p-4 rounded-xl border ${
+          isWaiter
+            ? "bg-sage-50/60 border-sage-200/80"
+            : "bg-slate-50/80 border-slate-200/80"
+        }`;
+
+        const badge = document.createElement("span");
+        badge.className = `inline-flex items-center justify-center px-2.5 py-1 rounded-lg text-xs font-bold uppercase tracking-wide shrink-0 w-24 ${
+          isWaiter
+            ? "bg-sage-600 text-white"
+            : "bg-slate-700 text-white"
+        }`;
+        badge.textContent = turn.speaker;
+
+        const textEl = document.createElement("div");
+        textEl.className = "text-slate-800 leading-relaxed flex-1";
+
+        turn.segments.forEach((seg) => {
+          if (typeof seg === "string") {
+            textEl.appendChild(document.createTextNode(seg));
+          } else {
+            const btn = document.createElement("button");
+            btn.type = "button";
+            btn.id = `dialogue-blank-${seg.id}`;
+            btn.className = "dialogue-blank";
+            btn.innerHTML = `<span>${seg.id}. choose verb</span><span class="text-xs opacity-70">▾</span>`;
+            btn.addEventListener("click", (e) => {
+              e.stopPropagation();
+              openBlankPopover(seg, btn);
+            });
+            textEl.appendChild(btn);
+          }
+        });
+
+        row.appendChild(badge);
+        row.appendChild(textEl);
+        container.appendChild(row);
+      });
+
+      updateDialogueScore();
+    }
+
+    function openBlankPopover(blankObj, triggerBtn) {
+      activeBlankId = blankObj.id;
+      const popover = document.getElementById("blank-popover");
+      const optionsBox = document.getElementById("popover-options");
+      const hintBox = document.getElementById("popover-hint");
+
+      optionsBox.innerHTML = "";
+      hintBox.className = "hidden text-xs p-2 rounded-lg";
+      hintBox.textContent = "";
+
+      const currentSaved = dialogueState[blankObj.id];
+      if (currentSaved) {
+        hintBox.className = currentSaved.isCorrect
+          ? "block text-xs p-2 rounded-lg bg-green-50 text-green-800 border border-green-200"
+          : "block text-xs p-2 rounded-lg bg-red-50 text-red-800 border border-red-200";
+        hintBox.innerHTML = currentSaved.isCorrect
+          ? `<strong>✓ Great!</strong> ${blankObj.hint}`
+          : `<strong>✗ Try again:</strong> ${blankObj.hint}`;
+      }
+
+      blankObj.options.forEach((optionText) => {
+        const optBtn = document.createElement("button");
+        optBtn.type = "button";
+        const isSelected = currentSaved && currentSaved.selected === optionText;
+        optBtn.className = `w-full text-left px-3 py-2 rounded-lg text-sm font-medium border transition flex items-center justify-between ${
+          isSelected
+            ? currentSaved.isCorrect
+              ? "bg-green-50 border-green-500 text-green-900 font-semibold"
+              : "bg-red-50 border-red-400 text-red-900 font-semibold"
+            : "bg-slate-50 hover:bg-sage-50 border-slate-200 hover:border-sage-400 text-slate-800"
+        }`;
+        optBtn.innerHTML = `<span>${optionText}</span>`;
+
+        optBtn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const isCorrect = optionText === blankObj.answer;
+          dialogueState[blankObj.id] = { selected: optionText, isCorrect };
+
+          // Update inline button text and styling
+          triggerBtn.innerHTML = `<span>${optionText}</span><span class="text-xs">${isCorrect ? "✓" : "✗"}</span>`;
+          triggerBtn.classList.remove("correct", "incorrect");
+          triggerBtn.classList.add(isCorrect ? "correct" : "incorrect");
+
+          updateDialogueScore();
+
+          if (isCorrect) {
+            closePopover();
+          } else {
+            // Re-render popover with helpful grammar hint
+            openBlankPopover(blankObj, triggerBtn);
+          }
+        });
+
+        optionsBox.appendChild(optBtn);
+      });
+
+      // Position popover safely inside viewport
+      popover.classList.remove("hidden");
+      const rect = triggerBtn.getBoundingClientRect();
+      const popWidth = popover.offsetWidth || 300;
+      const popHeight = popover.offsetHeight || 200;
+
+      let left = rect.left;
+      if (left + popWidth > window.innerWidth - 16) {
+        left = window.innerWidth - popWidth - 16;
+      }
+      if (left < 16) left = 16;
+
+      let top = rect.bottom + 8;
+      if (top + popHeight > window.innerHeight - 16) {
+        top = Math.max(16, rect.top - popHeight - 8);
+      }
+
+      popover.style.left = `${left}px`;
+      popover.style.top = `${top}px`;
+    }
+
+    function closePopover() {
+      document.getElementById("blank-popover").classList.add("hidden");
+      activeBlankId = null;
+    }
+
+    function updateDialogueScore() {
+      const totalBlanks = 18;
+      const correctCount = Object.values(dialogueState).filter((s) => s.isCorrect).length;
+      const badge = document.getElementById("dialogue-score-badge");
+      badge.textContent = `${correctCount} / ${totalBlanks} completed`;
+      if (correctCount === totalBlanks) {
+        badge.className = "px-3 py-1.5 rounded-lg bg-green-100 border border-green-300 text-green-900 text-xs sm:text-sm font-bold";
+      } else {
+        badge.className = "px-3 py-1.5 rounded-lg bg-sage-50 border border-sage-200 text-sage-800 text-xs sm:text-sm font-semibold";
+      }
+    }
+
+    function resetDialogue() {
+      for (const key in dialogueState) {
+        delete dialogueState[key];
+      }
+      closePopover();
+      renderDialogue();
+    }
+
+    // Close popover when clicking outside or scrolling
+    document.addEventListener("click", (e) => {
+      const popover = document.getElementById("blank-popover");
+      if (!popover.classList.contains("hidden") && !popover.contains(e.target)) {
+        closePopover();
+      }
+    });
+
+    window.addEventListener("resize", closePopover);
+
+    // Initialize worksheet on load
+    document.addEventListener("DOMContentLoaded", () => {
+      renderQuiz("quiz-ps", presentSimpleItems);
+      renderQuiz("quiz-pc", presentContinuousItems);
+      renderQuiz("quiz-stative", stativeExerciseItems);
+      renderDialogue();
+    });
+  </script>
+</body>
+</html>
